@@ -122,7 +122,7 @@ Ahora necesitamos conectar estos dos componentes, ¿Cómo lo hacemos? Muy fácil
 
 1. Debes importar `Botones.jsx` dentro del componente `Bienvenido.jsx`
 2. Debes renderizar `Botones.jsx`, como etiqueta en el componente `Bienvenido.jsx`
-3. Dentro del componente `Bienvenido` debemos pasarle el objeto `alerts` como **_props_** al renderizar el componente `Botones`.
+3. Dentro del componente `Bienvel objenido` debemos pasarle eto `alerts` como **_props_** al renderizar el componente `Botones`.
 4. El componente `Botones.jsx` recibe por props del componente `Bienvenido.jsx` dicho objeto con dos propiedades: `m1` y `m2`. Estos serán renderizados dentro del alert que dispara cada botón.
 
 > Para esta instancia deben pasar todos los tests. ✅ 🏆

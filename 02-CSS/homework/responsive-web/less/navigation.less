@@ -1,1 +1,57 @@
 // Código de Nav acá
+@import 'variables.less';
+
+nav{
+    background-color: @nav-bg;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    // align-items: center;
+    // border: @nav-border;
+    // color: @nav-font;
+    ul{
+        padding-top: 10px;
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+    }
+
+    a{
+        font-size: 12px;
+        text-decoration: none;
+        
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and(max-width: @phone){
+    nav{
+        ul{
+            width: 100%;
+            justify-content:space-evenly;
+        }
+        opacity: 0.7;
+        background-color: rgba(236, 226, 226, 0.712);
+
+    }
+
+    img.tecnologia{
+        display: none;
+    }
+    img.ondas{
+        display: none;   
+    }
+    .music-images{
+        justify-content: center;
+        img{
+            width: 100%;
+        }
+    }
+}
+

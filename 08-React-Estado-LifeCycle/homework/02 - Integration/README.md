@@ -78,7 +78,7 @@ Ahora crearás una función llamada **`onSearch`** que te servirá para agregar 
 1. Crea una función llamada **onSearch** en tu archivo **`App.js`**.
 2. Cada vez que esta función sea ejecutada deberá agregar un nuevo personaje a tu estado local **characters**.
 
-Como por el momento no vamos a recibir nuevos personajes, utilizaremos uno "_por default_". Es decir, cada vez que se ejecute la función anterior se debe agregar este personaje al estado local.
+Como por el momento no vamos a recibir nuevos personajes, utilizaremos uno "_por default_". Es decir, cada vez que se e    jecute la función anterior se debe agregar este personaje al estado local.
 
 ```js
 const example = {
